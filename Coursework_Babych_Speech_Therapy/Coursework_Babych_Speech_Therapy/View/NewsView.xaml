@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.View.NewsView">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Padding="10">
+            <ListView x:Name="listNews" ItemsSource="{Binding News}" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!--<TextCell Text="{Binding Topic}" TextColor="Purple" DetailColor="Maroon">
+                            
+                        </TextCell>
+                        <ImageCell Text="{Binding Topic}" TextColor="Purple" DetailColor="Maroon" ImageSource="{Binding Image}"></ImageCell>-->
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout Spacing="10">
+                                        <Label Text="{Binding Topic}" FontSize="27" TextColor="Gold" HorizontalOptions="CenterAndExpand"></Label>
+                                        <Image Source="{Binding Image}" WidthRequest="150" HeightRequest="150" HorizontalOptions="FillAndExpand" Aspect="AspectFit"></Image>
+                                        <Label Text="{Binding ShortDescription}" FontSize="20" HorizontalOptions="CenterAndExpand"></Label>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage BackgroundColor="#30D5C8" Title="Новини">
+            <ContentPage.Content>
+                <StackLayout Padding="10, 15, 10, 15">
+                    <StackLayout Padding="10, 10, 10, 10" Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="65" HeightRequest="65" Aspect="AspectFit" Source="child_st.png" VerticalOptions="Center"></Image>
+                        <Label Text="Користувач" VerticalOptions="Center" Font="20" FontSize="Body"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="news.png" HorizontalOptions="Start"></Image>
+                        <Button CornerRadius="50"  FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod"  TextColor="DarkViolet" Text="Новини" Clicked="ButtonNews" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="consultations.png" HorizontalOptions="Start"></Image>
+                        <Button CornerRadius="50" FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod" TextColor="DarkViolet" Text="Консультації" Clicked="ButtonConsultations" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="course.png" HorizontalOptions="Start"></Image>
+                        <Button CornerRadius="50" FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod" TextColor="DarkViolet" Text="Курси" Clicked="ButtonCourse" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="usefulmaterials.png" HorizontalOptions="Start"></Image>
+                        <Button CornerRadius="50" FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod" TextColor="DarkViolet" Text="Корисні матеріали" Clicked="ButtonUsefulMaterials" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="forum.png" HorizontalOptions="Start"></Image>
+                        <Button CornerRadius="50" FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod" TextColor="DarkViolet" Text="Форум" Clicked="ButtonForum" HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="EndAndExpand">
+                        <Image WidthRequest="24" HeightRequest="24" Aspect="AspectFit" Source="feedback.png" HorizontalOptions="Center"></Image>
+                        <Button CornerRadius="50" FontAttributes="Italic" BorderColor="Orange" BackgroundColor="Goldenrod" TextColor="DarkViolet" Text="Зворотній зв'язок" Clicked="ButtonFeedback" HorizontalOptions="Center" VerticalOptions="EndAndExpand"></Button>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                    <Label Text="info" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+                    <ListView>
+                        
+                    </ListView>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

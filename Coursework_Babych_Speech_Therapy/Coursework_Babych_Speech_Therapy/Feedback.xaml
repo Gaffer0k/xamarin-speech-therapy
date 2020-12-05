@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.Feedback"
+             Title="Зворотній зв'язок">
+    
+    <ContentPage.Content>
+        <StackLayout Padding="5">
+            <Label FontSize="23" FontAttributes="Italic" Margin="15" Text="Адреси електронної пошти:" HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label FontSize="15" Text="Загальні питання та пропозиції:"></Label>
+            <Editor IsReadOnly="True" Text="info@speech-therapy.com"></Editor>
+            <Label FontSize="15" Text="Служба безпеки:"></Label>
+            <Editor IsReadOnly="True" Text="security@speech-therapy.com"></Editor>
+            <Label FontSize="15" Text="Головний директор:"></Label>
+            <Editor IsReadOnly="True" Text="logtherapy@speech-therapy.com"></Editor>
+            <Label FontSize="15" Text="Співробітник з політики конфіденційності:"></Label>
+            <Editor IsReadOnly="True" Text="orgsec@speech-therapy.com"></Editor>
+            <Label FontSize="23" FontAttributes="Italic" Margin="15" Text="Телефон: " HorizontalOptions="Center" TextColor="Black"></Label>
+            <Label Text=" *Дзвінки згідно з умовами Вашого оператора* "></Label>
+            <Editor IsReadOnly="True" Text="044 123 45 67"></Editor>
+            
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

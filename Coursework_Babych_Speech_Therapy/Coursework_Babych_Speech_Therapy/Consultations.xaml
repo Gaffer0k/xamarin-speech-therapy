@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.Consultations"
+             Title="Консультації">
+
+    <StackLayout Margin="20,35,20,20">
+        <Label FontSize="25" Text=" *Запит щодо консультації* " HorizontalOptions="CenterAndExpand" FontAttributes="Italic" Margin="10" TextColor="Black"></Label>
+        <Entry x:Name="Cons_topic" Placeholder="Тема" Margin="20" FontSize="20"/>
+        <Entry x:Name="Cons_email" Placeholder="Ваша електронна адреса" Margin="20" FontSize="17"/>
+        <Label Text="Опишіть Ваше питання нижче" HorizontalOptions="CenterAndExpand" Margin="10" FontSize="17"></Label>
+        <Editor x:Name="Cons_question" BackgroundColor="#a5d6a7" WidthRequest="300" HeightRequest="300" AutoSize="TextChanges" Margin="10"/>
+        <Button CornerRadius="50"  FontAttributes="Italic" BorderColor="Black" BackgroundColor="Gray"  TextColor="White" x:Name="SendCons" Text="   Надіслати   " Clicked="SendConsult" HorizontalOptions="Center" VerticalOptions="End" ></Button>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.Forum"
+             Title="Форум">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor x:Name="BoxChat" BackgroundColor="#30D5C8" HorizontalOptions="FillAndExpand"  HeightRequest="630" IsReadOnly="True"/>
+            <Entry Keyboard="Chat" x:Name="Chat1" HorizontalOptions="FillAndExpand" Placeholder="Пишіть повідомлення... " VerticalOptions="EndAndExpand" />
+            <Button CornerRadius="100"  FontAttributes="Italic" BorderColor="Tomato" BackgroundColor="LightCoral"  TextColor="Black" x:Name="BSend" Clicked="SendMes" HorizontalOptions="FillAndExpand" Text="Надіслати" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

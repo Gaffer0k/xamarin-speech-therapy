@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Coursework_Babych_Speech_Therapy.UsefulMaterials"
+             Title="Корисні матеріали">
+    
+    <ContentPage.Content>
+        <StackLayout Margin="25" Padding="5">
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №1 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download1" HorizontalOptions="Center"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №2 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download2" HorizontalOptions="FillAndExpand"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №3 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download3" HorizontalOptions="Center"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №4 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download4" HorizontalOptions="FillAndExpand"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №5 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download5" HorizontalOptions="Center"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №6 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download6" HorizontalOptions="FillAndExpand"></Button>
+
+            <Label FontSize="15" FontAttributes="Bold" Text=" Тема №7 " HorizontalOptions="Center"></Label>
+            <Button CornerRadius="90"  FontAttributes="Italic" BorderColor="Green" BackgroundColor="White" TextColor="Green" Text="Завантажити" Clicked="Download7" HorizontalOptions="Center"></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
