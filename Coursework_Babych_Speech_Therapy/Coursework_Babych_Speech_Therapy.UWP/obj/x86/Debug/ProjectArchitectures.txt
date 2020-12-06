@@ -1,1 +1,0 @@
-C:\C#\Coursework_1\Coursework_Babych_Speech_Therapy\Coursework_Babych_Speech_Therapy.UWP\Coursework_Babych_Speech_Therapy.UWP.csproj;x86
